@@ -1,0 +1,242 @@
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+    background-image:url(imageDaccueil1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.principale .logo a{
+color: #fff;
+padding: 0px 20px;
+/* border: 1px solid #fff; */
+position: absolute;
+top: 10px;
+left: 10px;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 900;
+text-shadow: rgba(0, 0, 0, 0,7);
+}
+.principale .logo span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* -----------------------------MENU------------------- */
+.menu ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px; ;
+    font-weight: 500;
+    transition:0,6s ;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.963);
+}
+
+.menu ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.menu ul li.active a{
+    background: #fff;
+    color: #000;
+}
+/* -----------------------------MENU------------------- */
+
+.titre{
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.titre h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+.bouton{
+    position: absolute;
+    top:60% ;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.bouton a{
+color: white;
+text-decoration: none;
+border: 1px solid #fff;
+padding: 10px 20px;
+}
+.btn{
+    transition: 0,6s ease;
+}
+.btn:hover{ 
+    background-color: #fff;
+    color: #000;
+
+}
+.destinations{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cardContainer a {
+    text-decoration: none;
+}
+.card{
+    width: 400px;
+    height: 230PX;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px;
+    background-image: url(imageMecque.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+}
+.card h5{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.card1{
+    background-image: url(imageMecque.jpg);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.card2{
+    background-image: url(imageLondre.jpg);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.card3{
+    background-image: url(imageRio.jpg);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.card4{
+    background-image: url(imageCapSkiring.jpg);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.card5{
+    background-image: url(imageMiami.jpg);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.card6{
+    background-image: url(imageDubai.jpg);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+.cardContainer{
+   
+    display: flex;
+    justify-content: center;
+   
+
+    
+}
+section{
+    padding-bottom: 50px;
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.footer-contact p{
+    padding: 5px 0;
+}
+/* services */
+
+.liste-services,
+.liste-horaires,
+.liste-media{
+    list-style-type: none;
+}
+.liste-services li{
+    padding: 2px 0;
+}
+.liste-services a{
+    text-decoration: none;
+    color: #333;
+}
+.liste-services a:hover{
+    color: rgb(3, 3, 3);
+}
+.liste-media{
+    position: relative;
+    right: 10px;
+}
+/* medias */
+.liste-media img{
+    width: 40px;
+    margin: 10px 10px;
+}
+.liste-media a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}

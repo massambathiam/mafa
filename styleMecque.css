@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header {
+    background-image: url(imageMecque.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+
+.logo a {
+    color: #fff;
+    padding: 0px 20px;
+    /* border: 1px solid #fff; */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0, 7);
+}
+
+.logo span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0, 6s;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.963);
+
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.menu ul li.active a {
+    background: #fff;
+    color: #000;
+}
+
+.content {
+    background-image: url(fond2.png);
+    background-size: cover;
+    border-top: 1px solid rgba(45, 44, 44, 0);
+}
+
+.content>div {
+    display: flex;
+    align-items: flex-start;
+    padding: 50px;
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+
+}
+
+.content p {
+    text-align: justify;
+
+}
+
+img {
+    width: 70vh;
+    margin-right: 50px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2837;
+    width: 100%;
+}
+.video h1{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.video > div{
+    width: 100%;
+    text-align: center;
+}
+.video iframe{
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+
+.contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+/* contact */
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p {
+    padding: 5px 0;
+}
+
+/* services */
+
+.liste-services,
+.liste-horaires,
+.liste-media {
+    list-style-type: none;
+}
+
+.liste-services li {
+    padding: 2px 0;
+}
+
+.liste-services a {
+    text-decoration: none;
+    color: #333;
+}
+
+.liste-services a:hover {
+    color: rgb(3, 3, 3);
+}
+
+.liste-media {
+    position: relative;
+    right: 10px;
+}
+
+/* medias */
+.liste-media img {
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.liste-media a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
